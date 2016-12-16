@@ -14,6 +14,11 @@ Mad Bars relies on multiple technologies:
 * [electron] - Used to create cross-platform desktop applications with node
 * [amcharts] - Used to create the chart visuals
 
+### Interface
+
+Interfacing with amcharts from a language that has no official binding yet is a walk in the park. This is due to the fact that the interface is done through local HTTP requests meaning that any language that supports them will be able to utilize Mad Bars
+#### Requests
+
 ### Installation
 
 ### Development
@@ -24,7 +29,7 @@ Feel free to make any pull requests that you feel help to improve the project in
 
  - Replace Pug with HTML (pug isn't really needed, I just used it because I'm used to it) 
  - Replace Amcharts with D3js charts - allows more flexibility with the graphs
-
+ - Add more graph types
 License
 ----
 
