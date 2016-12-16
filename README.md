@@ -30,8 +30,8 @@ Feel free to make any pull requests that you feel help to improve the project in
  - Replace Pug with HTML (pug isn't really needed, I just used it because I'm used to it) 
  - Replace Amcharts with D3js charts - allows more flexibility with the graphs
  - Add more graph types
-License
-----
+ 
+### License
 
 MIT
 
