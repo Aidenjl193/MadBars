@@ -2,16 +2,16 @@
 
 Mad Bars is a desktop application designed for visualizing test data in various programming languages
 
-> Mad bars is designed to be simple to implement into an existing project
-> and easy to work with due to the multiple pre-written bindings
+> Mad bars is designed to be simple to implement into an existing project and easy to work with due to the multiple pre-written bindings.
+> One of the core philosophies of this project is extensibility and flexibility, this means that it's written with modification in mind
 
 ### Tech
 
 Mad Bars relies on multiple technologies:
 
-* [node.js] - Where the bulk of the application runs
-* [Express] - Used for streamlining the routes for post reuquests
 * [electron] - Used to create cross-platform desktop applications with node
+* [node.js] - Where the bulk of the application is written
+* [Express] - Used for streamlining the routes for post reuquests
 * [amcharts] - Used to create the chart visuals
 
 ### Interface
@@ -21,7 +21,7 @@ Interfacing with amcharts from a language that has no official binding yet is a 
 
 ### Installation
 
-### Development
+### Contributing
 
 Feel free to make any pull requests that you feel help to improve the project in any way
 
