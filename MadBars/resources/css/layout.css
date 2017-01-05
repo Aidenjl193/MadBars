@@ -1,0 +1,123 @@
+#sidebar
+{
+  background-color: #282C34;
+  padding: 15px;
+}
+
+#mainblock
+{
+    background-color: #21252B;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 80px;
+    padding-left: 100px;
+}
+
+#title
+{
+    color: #9DA5B4;
+}
+
+
+@media (min-width: 768px)
+{
+  #sidebar
+  {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 180px;
+    height: 100%;
+    padding-top: 30px;
+  }
+}
+
+#chartdiv
+{
+    background-color: transparent !important;
+    margin-top: 5%;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -40px;
+    box-sizing: border-box;
+}
+
+#cssmenu {
+    background-color: #0a0a0c;
+    width: auto;
+    font-family: Raleway, sans-serif;
+    line-height: 1;
+}
+
+#cssmenu ul li, #cssmenu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#cssmenu > ul > li {
+    float: left;
+}
+
+#cssmenu > ul > li > a {
+    z-index: 2;
+    padding: 18px 25px 12px 25px;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #9DA5B4;
+    transition: all .2s ease;
+    margin-right: -4px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#cssmenu > ul > li > a:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 120%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    content: "";
+    transition: all .2s ease;
+    transform: perspective(5px) rotateX(2deg);
+    transform-origin: bottom;
+}
+
+#cssmenu > ul > li.active > a:after, #cssmenu > ul > li:hover > a:after, #cssmenu > ul > li > a:hover:after {
+    background: #21252B;
+}
+
+a::after{
+    background: #1c1e1e;
+}
+
+#chartdiv > div > div > a {
+    display: none !important;
+}

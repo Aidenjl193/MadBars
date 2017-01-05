@@ -1,0 +1,21 @@
+doctype
+html
+	head
+		title #{title} - Mad Bars
+		link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+		link(rel='stylesheet', href='https://cdn.muicss.com/mui-0.9.5/css/mui.min.css')
+		link(rel='stylesheet', href='../css/layout.css')
+		block head
+	body
+		.main-content
+				div(id="mainblock")
+					block content
+		.sidebar
+			div(id="sidebar" class="mui--z4")
+				div(id="title" class="mui--text-light mui--text-display1 mui--align-vertical") Mad Bars
+		script(src="../amcharts/amcharts.js")
+		script(src="../amcharts/serial.js")
+		script(src="../amcharts/themes/dark.js")
+		script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+		script(src="https://cdn.muicss.com/mui-0.9.5/js/mui.min.js")
+		block scripts

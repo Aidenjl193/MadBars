@@ -1,0 +1,19 @@
+{
+  "name": "grapher",
+  "version": "1.0.0",
+  "description": "A local webserver to log data with",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies":
+  {
+  	"electron": "*",
+  	"d3": "*",
+  	"express": "*",
+  	"electron-pug": "*",
+    "body-parser": "*"
+  },
+  "author": "Aiden Leeming",
+  "license": "ISC"
+}

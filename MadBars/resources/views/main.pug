@@ -1,0 +1,14 @@
+extend layout.pug
+block content
+    div(class="row")
+        div(class="col-md-12")
+            div(id="cssmenu")
+                ul(id="tabs")
+                    li(class="active")
+                        a Test1
+                    li
+                        a Test2
+    div(id="barchart")
+        div(id="chartdiv" style="width: 90%; height: 500px; background-color: #282828;")
+block scripts
+    script(src="../js/main.js")
