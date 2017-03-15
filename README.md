@@ -3,7 +3,7 @@
 Mad Bars is a desktop application designed for visualizing test data in various programming languages
 
 > Mad bars is designed to be simple to implement into an existing project and easy to work with due to the multiple pre-written bindings.
-> One of the core philosophies of this project is extensibility and flexibility, this means that it's written with modification in mind
+> The core philosophies of this project are extensibility and flexibility, this means that it's written with modification in mind
 
 ### Tech
 
