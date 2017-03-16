@@ -1,6 +1,6 @@
 # Mad Bars
 
-Mad Bars is a desktop application designed for visualizing data from various programming languages
+Mad Bars is a standalone desktop application designed for visualizing data from various programming languages
 
 > Mad bars is designed to be simple to implement into an existing project and easy to work with due to the multiple pre-written bindings.
 > The core philosophies of this project are extensibility and flexibility, this means that it's written with modification in mind
