@@ -17,7 +17,8 @@ Mad Bars relies on multiple technologies:
 ## Bindings
 
 ### Official
-* [MadBars-Go]
+* [MadBars-Go] - The official Golang binding for MadBars
+* [MadBars-CS] - The official C# binding for MadBars
 
 ## Interface
 
@@ -46,3 +47,4 @@ MIT
    [electron]: <http://electron.atom.io/>
    [amcharts]: <https://www.amcharts.com/>
    [MadBars-Go]: <https://github.com/Aidenjl193/MadBars-Go>
+   [MadBars-CS]: <https://github.com/Aidenjl193/MadBars-CS>
