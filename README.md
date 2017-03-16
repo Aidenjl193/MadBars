@@ -5,7 +5,7 @@ Mad Bars is a standalone desktop application designed for visualizing data from 
 > Mad bars is designed to be simple to implement into an existing project and easy to work with due to the multiple pre-written bindings.
 > The core philosophies of this project are extensibility and flexibility, this means that it's written with modification in mind
 
-### Tech
+## Tech
 
 Mad Bars relies on multiple technologies:
 
@@ -14,29 +14,29 @@ Mad Bars relies on multiple technologies:
 * [Express] - Used for streamlining the routes for post reuquests
 * [amcharts] - Used to create the chart visuals
 
-### Bindings
+## Bindings
 
-#### Official
+### Official
 * [MadBars-Go]
 
-### Interface
+## Interface
 
 Interfacing with MadBars from a language that has no official binding yet is a walk in the park. This is due to the fact that the interface is done through local HTTP requests meaning that any language that supports them will be able to utilize Mad Bars
-#### Requests
+### Requests
 
-### Installation
+## Installation
 
-### Contributing
+## Contributing
 
 Feel free to make any pull requests that you feel help to improve the project in any way
 
-### Todos
+## Todos
 
  - Replace Pug with HTML (pug isn't really needed, I just used it because I'm used to it) 
  - Replace Amcharts with D3js charts - allows more flexibility with the graphs
  - Add more graph types
  
-### License
+## License
 
 MIT
 
