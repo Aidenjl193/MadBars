@@ -16,6 +16,9 @@ Mad Bars relies on multiple technologies:
 
 ### Bindings
 
+#### Official
+* [MadBars-Go]
+
 ### Interface
 
 Interfacing with MadBars from a language that has no official binding yet is a walk in the park. This is due to the fact that the interface is done through local HTTP requests meaning that any language that supports them will be able to utilize Mad Bars
@@ -42,3 +45,4 @@ MIT
    [express]: <http://expressjs.com>
    [electron]: <http://electron.atom.io/>
    [amcharts]: <https://www.amcharts.com/>
+   [MadBars-Go]: <https://github.com/Aidenjl193/MadBars-Go>
