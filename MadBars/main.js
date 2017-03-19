@@ -48,7 +48,7 @@ function InitializeExpress()
   		console.log('Express app listening on port 3000!')
 	})
 
-	expressApp.post('/create', function (req, res)
+	/*expressApp.post('/create', function (req, res)
 	{
 		win.webContents.send('create', req.body);
 		res.send('success');
@@ -57,6 +57,13 @@ function InitializeExpress()
 	expressApp.post('/addvalue', function (req, res)
 	{
 		win.webContents.send('addvalue', req.body);
+		res.send('success');
+	})*/
+
+	//Pass all of the post requests through to electron renderer to deal with
+	expressApp.post('/:route', function (req, res)
+	{
+		win.webContents.send(req.params.route, req.body);
 		res.send('success');
 	})
 }

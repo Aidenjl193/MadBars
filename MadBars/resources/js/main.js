@@ -66,6 +66,7 @@ ipcRenderer.on('addvalue', (event, arg) => {
 });
 
 $('li > a').click(function() {
+    console.log("clicked");
     $('li').removeClass();
     $(this).parent().addClass('active');
 });
