@@ -1,13 +1,13 @@
-# Mad Bars
+# MadBars
 
-Mad Bars is a standalone desktop application designed for visualizing data from various programming languages
+MadBars is a standalone desktop application designed for visualizing data from various programming languages
 
-> Mad bars is designed to be simple to implement into an existing project and easy to work with due to the multiple pre-written bindings.
+> MadBars is designed to be simple to implement into an existing project and easy to work with due to the multiple pre-written bindings.
 > The core philosophies of this project are extensibility and flexibility, this means that it's written with modification in mind
 
 ## Tech
 
-Mad Bars relies on multiple technologies:
+MadBars relies on multiple technologies:
 
 * [electron] - Used to create cross-platform desktop applications with node
 * [node.js] - Where the bulk of the application is written
@@ -22,8 +22,8 @@ Mad Bars relies on multiple technologies:
 
 ## Interface
 
-Interfacing with MadBars from a language that has no official binding yet is a walk in the park. This is due to the fact that the interface is done through local HTTP requests meaning that any language that supports them will be able to utilize Mad Bars
-### Requests
+Interfacing with MadBars from a language that has no official binding yet is a walk in the park. This is due to the fact that the interface is done through local HTTP requests meaning that any language that supports them will be able to utilize MadBars
+[MadBars-Protocol]
 
 ## Installation
 
@@ -48,3 +48,4 @@ MIT
    [amcharts]: <https://www.amcharts.com/>
    [MadBars-Go]: <https://github.com/Aidenjl193/MadBars-Go>
    [MadBars-CS]: <https://github.com/Aidenjl193/MadBars-CS>
+   [MadBars-Protocol]: <https://github.com/Aidenjl193/MadBars/wiki/Protocol>
